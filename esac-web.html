@@ -1,0 +1,59 @@
+<meta charset="utf-8" emacsmode="-*- markdown -*"><link rel="stylesheet" href="style.css">
+
+<body>
+
+<h1 style="text-align:center;">Off-Policy Evolutionary Reinforcement Learning with Maximum Mutations</h1>
+
+<p><a href="https://karush17.github.io/">Karush Suri</a></p>
+
+<p>$21^{\text{st}}$ International Conference on Autonomous Agents & Multi-Agent Systems (AAMAS 2022)</p>
+
+<p><b>Oral Presentation</b></p>
+
+<p><a href="https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1237.pdf">[Paper]</a>&nbsp;&nbsp;<a href="https://github.com/karush17/esac">[Code]</a>&nbsp;&nbsp;<a href="https://youtu.be/A2XoNwxuHvY">[Talk]</a></p>
+
+
+<center><iframe width="460" height="215" src="https://www.youtube.com/embed/A2XoNwxuHvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+<p style="text-align:justify;">Evolution-based   Soft   Actor   Critic (ESAC) is  an  algorithm  combining  Evolution Strategies (ES)  with  Soft Actor-Critic (SAC)  for performance equivalent to SAC and scalability comparable to ES. ESAC abstracts exploration from exploitation by exploring policies in weight space and optimizing returns in the value function space. The framework makes use of a novel soft winner selection function  and carries out genetic crossovers in hindsight. ESAC also introduces the novel Automatic Mutation Tuning (AMT) which maximizes the mutation rate of ES in a small clipped region and provides significant hyperparameter robustness.</p>  
+
+<p><img src="assets/schematic.gif" /></p>  
+
+<p style="text-align:justify;">Concepts and applications of Reinforcement Learning (RL) have seen a tremendous growth over the past decade. These consist of applications in arcade games, board games and lately, robotic control tasks. Primary reason for this growth is the usage of computationally efficient function approximators such as neural networks. Modern-day RL algorithms make use of parallelization to reduce training times and boost agent’s performance through effective exploration giving rise to scalable methods, commonly referred to as Scalable Reinforcement Learning (SRL). However,a number of open problems such as approximation bias, lack of scalability in the case of long time horizons and lack of diverse exploration restrict the application of SRL to complex control and robotic tasks.</p>  
+
+```
+@misc{
+karush17,
+title={Off-Policy Evolutionary Reinforcement Learning with Maximum Mutations},
+author={Karush Suri},
+year={2021},
+url={https://nbviewer.jupyter.org/github/karush17/karush17.github.io/blob/master/_pages/temp4.pdf}
+}
+```
+
+<style>
+
+  p {
+    text-align: center;
+  }
+  
+  i {
+    font-size: 2.5em;
+  }
+
+  img {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+  }
+
+</style>
+
+
+<script>markdeepOptions={tocStyle:'none'};</script>
+<!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
