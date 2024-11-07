@@ -1,0 +1,62 @@
+<meta charset="utf-8" emacsmode="-*- markdown -*"><link rel="stylesheet" href="style.css">
+
+<body>
+
+<h1 style="text-align:center;">Surprise Minimizing Multi-Agent Learning with Energy-based Models</h1>
+
+<p><a href="https://karush17.github.io/">Karush Suri</a>,&nbsp; <a href="https://www.linkedin.com/in/david-shi-8526075b/?originalSubdomain=ca">Xiao Qi Shi</a>,&nbsp; <a href="https://www.dsp.utoronto.ca/~kostas/">Konstantinos Plataniotis</a>,&nbsp; <a href="https://www.cmte.utoronto.ca/">Yuri Lawryshyn</a></p>
+
+<p>$36^{\text{th}}$ Conference on Neural Information Processing Systesm <br> (NeurIPS 2022)</p>
+
+<p><a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/28dad4a70f748a2980998d3ed0f1b8d2-Paper-Conference.pdf">[Paper]</a>&nbsp;&nbsp;<a href="https://github.com/karush17/emix">[Code]</a>&nbsp;&nbsp;<a href="https://youtu.be/0FQET4jDBnU">[Talk]</a></p>
+
+
+<center><iframe width="460" height="215" src="https://www.youtube.com/embed/0FQET4jDBnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+<p style="text-align:justify;">Multi-Agent Reinforcement Learning (MARL) has demonstrated significant success by virtue of collaboration across agents. Recent work, on the other hand, introduces surprise which quantifies the degree of change in an agent’s environment. Surprise-based learning has received significant attention in the case of single-agent entropic settings but remains an open problem for fast-paced dynamics in multi-agent scenarios. A potential alternative to address surprise may be realized through the lens of free-energy minimization. This project explores surprise minimization in multi-agent learning by utilizing the free energy across all agents in a multiagent system. A temporal Energy-Based Model (EBM) represents an estimate of surprise which is minimized over the joint agent distribution. Such a scheme results in convergence towards minimum energy configurations akin to least surprise. Additionally, multi-agent populations acquire robust policies.</p>  
+
+<p><img src="assets/surprise.PNG" /></p>  
+
+<p style="text-align:justify;">Below is an intuitive illustration of the objective. The joint agent population aims to minimize surprise corresponding to minimum energy configurations. Agents collaborate in partially-observed worlds to attain a joint niche. This local niche implicitly corresponds to a fixed point of on the energy landscape. Note that agents act locally with actions conditioned on their own action observation histories. It is by virtue of preconditioned values estimations that the surprise minimization scheme informs agents of joint surprise. Upon population’s convergence to a suitable configuration, agents continue to experience minimum (yet finite) surprise arising from evironment dynamics.</p>  
+
+<p><img src="assets/emix-arch.png" /></p>  
+
+<p><img src="assets/2s_vs_1sc.gif" height="50px" width="100px" />&nbsp;<img src="assets/5m_vs_6m.gif" height="50px" width="100px" />&nbsp;<img src="assets/so_many_baneling.gif" height="50px" width="100px" /></p>  
+
+
+```
+@inproceedings{
+karush17,
+title={Surprise Minimizing Multi-Agent Learning with Energy-based Models},
+author={Karush Suri, Xiao Qi Shi, Konstantinos Plataniotis, Yuri Lawryshyn},
+year={2022},
+journal={Neural Information Processing Systems 2022}
+}
+```
+
+<style>
+
+  p {
+    text-align: center;
+  }
+  
+  i {
+    font-size: 2.5em;
+  }
+
+  img {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+  }
+
+</style>
+
+
+<script>markdeepOptions={tocStyle:'none'};</script>
+<!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
