@@ -6,13 +6,13 @@ body#md {
     font-weight: 300;
 
     text-align: justify;
-    left: 140px;
-    right: 140px;
+    left: 150px;
+    right: 150px;
     margin: 0;
     padding: 0;
     max-width: none;
     color: #555;
-    font-size: 18px;
+    font-size: 20px;
     padding-right: 20px;
     overflow-x: hidden;
     text-overflow: ellipses;
@@ -49,7 +49,7 @@ center {
 h1 {
   margin-left: 0px;
   font-family: Georgia, Times, serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 
@@ -58,7 +58,7 @@ h1 {
     display: block;
     border-right: 3px solid #E77500;
     overflow-y:scroll;
-    font-size: 15px;
+    font-size: 20px;
     font-family: inherit;
     background: #FFF;
     
