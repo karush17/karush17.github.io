@@ -49,7 +49,7 @@ center {
 h1 {
   margin-left: 0px;
   font-family: Georgia, Times, serif;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 
@@ -58,7 +58,7 @@ h1 {
     display: block;
     border-right: 3px solid #E77500;
     overflow-y:scroll;
-    font-size: 20px;
+    font-size: 15px;
     font-family: inherit;
     background: #FFF;
     
