@@ -6,13 +6,13 @@ body#md {
     font-weight: 300;
 
     text-align: justify;
-    left: 170px;
-    right: 170px;
+    left: 300px;
+    right: 300px;
     margin: 0;
     padding: 0;
     max-width: none;
     color: #555;
-    font-size: 18px;
+    font-size: 17px;
     padding-right: 20px;
     overflow-x: hidden;
     text-overflow: ellipses;
