@@ -54,7 +54,7 @@ h1 {
 
 .float-container img {
     float: left;
-    margin-right: 0px;
+    margin-right: 20px;
 }
 .float-container::after {
     content: "";
