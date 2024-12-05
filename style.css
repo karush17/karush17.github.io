@@ -52,6 +52,15 @@ h1 {
   font-size: 22px;
 }
 
+.float-container img {
+    float: left;
+    margin-right: 0px;
+}
+.float-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .md .longTOC {
     width: 150px;
