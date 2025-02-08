@@ -12,7 +12,7 @@ body#md {
     padding: 0;
     max-width: none;
     color: #555;
-    font-size: 17px;
+    font-size: 16px;
     padding-right: 20px;
     overflow-x: hidden;
     text-overflow: ellipses;
@@ -49,7 +49,13 @@ center {
 h1 {
   margin-left: 0px;
   font-family: Georgia, Times, serif;
-  font-size: 22px;
+  font-size: 34px;
+}
+
+h2 {
+  margin-left: 0px;
+  font-family: Georgia, Times, serif;
+  font-size: 24px;
 }
 
 .flex-container {
