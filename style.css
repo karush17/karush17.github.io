@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:800i');
 
+
+@font-face {
+  font-family: 'Computer Modern Bold';
+  src: url('font/cmunbx.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Computer Modern Serif';
+  src: url('font/cmunrm.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body#md {
     position: absolute;
-    font-family: Georgia, Times, serif;
+    font-family: "Computer Modern Bold", serif;
     font-weight: 300;
 
     text-align: justify;
@@ -11,7 +27,7 @@ body#md {
     margin: 0;
     padding: 0;
     max-width: none;
-    color: #555;
+    color: #000000;
     font-size: 16px;
     padding-right: 20px;
     overflow-x: hidden;
@@ -30,7 +46,7 @@ img {
 
 p {
   text-align: justify;
-  font-family: Georgia, Times, serif;    
+  font-family: "Computer Modern Serif", serif;
 }
 
 body#md a {
@@ -42,20 +58,23 @@ body#md a:hover {
   text-decoration: underline;
 }
 
-center {
-  font-family: Georgia, Times, serif;    
-}
 
 h1 {
   margin-left: 0px;
-  font-family: Georgia, Times, serif;
+  font-family: "Computer Modern Bold", serif;
   font-size: 34px;
+  text-align: left;
 }
 
 h2 {
   margin-left: 0px;
-  font-family: Georgia, Times, serif;
+  font-family: "Computer Modern Bold", serif;
   font-size: 24px;
+  text-align: left;
+}
+
+b {
+  font-family: "Computer Modern Bold", serif;
 }
 
 .flex-container {
