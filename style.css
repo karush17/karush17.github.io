@@ -52,12 +52,10 @@ p {
 body#md a {
   color: #1949EC;
   text-decoration: none;
-  font-family: "Computer Modern Serif", serif;
 }
 
 body#md a:hover {
   text-decoration: underline;
-  font-family: "Computer Modern Serif", serif;
 }
 
 
