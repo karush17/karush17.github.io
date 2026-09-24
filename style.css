@@ -77,6 +77,21 @@ b {
   font-family: "Computer Modern Bold", serif;
 }
 
+pre {
+    background:  #3a3a3a;
+    color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: "Fira Code", "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+code {
+    font-family: inherit;
+}
+
 .flex-container {
     display: flex;
     align-items: center;
